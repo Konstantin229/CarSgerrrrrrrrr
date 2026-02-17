@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarShare | Каршеринг по выгодным ценам</title>
+    <meta name="description" content="Сервис каршеринга CarShare: аренда автомобилей поминутно, электромобили, премиум-класс. Регистрируйтесь и поезжайте!">
+    <meta name="author" content="CarShare Team">
+    <!-- Допы keywords для SEO -->
+    <meta name="keywords" content="каршеринг, аренда авто, поминутная аренда, автомобиль напрокат, каршеринг москва">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'></text></svg>">
+</head>
+<body>
+
+    <!-- хедер (добавлено визуальное отделение линией) -->
+    <header style="border: 2px solid #2c3e50; padding: 10px; margin: 5px; background-color: #ecf0f1;">
+        <h1> CarShare — ваш личный автомобиль на минуты</h1>
+        <p><small>Более 500 автомобилей по всему городу. Тарифы от 7 ₽/мин.</small></p>
+    </header>
+
+    <!-- нав (блочное выделение) -->
+    <nav style="border: 2px solid #3498db; padding: 10px; margin: 5px; background-color: #e9f7fe;">
+        <h2> Содержание</h2>
+        <ul>
+            <li><a href="#tariffs">Тарифы и условия</a></li>
+            <li><a href="#fleet">Наш автопарк</a></li>
+            <li><a href="#review">Отзыв клиента</a></li>
+            <li><a href="#stats">Статистика поездок</a></li>
+            <li><a href="#booking">Забронировать</a></li>
+        </ul>
+    </nav>
+
+    <!-- осн конт (рамка для выделения) -->
+    <main id="main" style="border: 2px solid #27ae60; padding: 10px; margin: 5px; background-color: #f0fff0;">
+
+        <!-- секция тарифы -->
+        <section id="tariffs" style="border: 1px solid #7f8c8d; padding: 8px; margin: 8px 0;">
+            <h2> Тарифы каршеринга</h2>
+            
+            <!-- текст  -->
+            <p><strong>Поминутная тарификация</strong> — наша гордость. <em>Экономьте до 30%</em> с пакетом "День". Акция действует до <time datetime="2025-12-31">31 декабря 2025</time>.</p>
+            <p><mark>Спецпредложение для новых клиентов:</mark> первый час за <sup>199</sup> ₽ вместо <sub>450</sub> ₽. Для активации нажмите <kbd>Promo</kbd> в приложении.</p>
+            <p><mark>Топливо включено в тариф </mark><abbr title="кроме премиум-класса">Premium</abbr>. Парковка в центре бесплатна <small>(условия уточняйте в зонах)</small>.</p>
+            
+            <hr> <!-- разделитель -->
+            
+            <pre><code>Формула расчёта поездки:
+  итог = (минуты × тариф) + доп. услуги
+  где тариф = база × коэффициент авто</code></pre>
+            
+            <!-- нум список (5 пунктов) -->
+            <h3>Топ-5 причин выбрать CarShare:</h3>
+            <ol>
+                <li>Бесплатная парковка в пределах МКАД</li>
+                <li>Автомобили с автоматической коробкой</li>
+                <li>Круглосуточная поддержка</li>
+                <li>Чистый салон после каждого клиента</li>
+                <li>Возможность аренды на месяц</li>
+            </ol>
+            
+            <!-- Марк список (6 пунктов + вложенный) -->
+            <h3>Тарифные планы:</h3>
+            <ul>
+                <li>Эконом (от 7 ₽/мин)</li>
+                <li>Комфорт (от 12 ₽/мин)
+                    <ul>
+                        <li>С кондиционером</li>
+                        <li>С подогревом сидений</li>
+                    </ul>
+                </li>
+                <li>Бизнес (от 19 ₽/мин)</li>
+                <li>Электро (Zoe, Tesla)</li>
+                <li>Минивэн (7 мест)</li>
+                <li>Premium (BMW, Audi)</li>
+            </ul>
+        </section>
+
+        <!-- секция Автопарк -->
+        <section id="fleet" style="border: 1px solid #7f8c8d; padding: 8px; margin: 8px 0;">
+            <h2> Наш автопарк</h2>
+            
+            <!-- список определений -->
+            <h3>Термины каршеринга:</h3>
+            <dl>
+                <dt><dfn>Зона завершения</dfn></dt>
+                <dd>Территория, где можно оставить авто без штрафа.</dd>
+                <dt><dfn>Поминутка</dfn></dt>
+                <dd>Тариф без фиксированной стоимости, списание за каждую минуту.</dd>
+                <dt><dfn>Франшиза</dfn></dt>
+                <dd>Сумма, которую оплачивает клиент при ДТП.</dd>
+            </dl>
+            
+            <!-- статья об электромобилях -->
+            <article id="review" style="border: 1px dashed #c0392b; padding: 8px; background-color: #fef5f5;">
+                <h3>  Статья: Электромобили в каршеринге</h3>
+                <p><cite>«Зелёный транспорт мегаполиса»</cite> (автор Д.В. Смирнов) пишет: <q>Электромобили составляют уже 20% автопарка каршеринга.</q> В нашем парке представлены:</p>
+                <blockquote>
+                    <p>Renault Zoe — компактный городской автомобиль с запасом хода 300 км. Идеален для поездок по центру.</p>
+                </blockquote>
+                <p><span style="font-weight: bold;">Tesla Model 3</span> — для любителей скорости и <span style="font-style: italic;">premium-технологий</span>.</p>
+            </article>
+            
+            <!-- ссылки -->
+            <p>Подробнее об электромобилях читайте на <a href="https://www.tesla.com" target="_blank" rel="noopener noreferrer">официальном сайте Tesla</a>.</p>
+            <p><br></p> <!-- перенос строки -->
+        </section>
+
+        <!-- табл стат поездок -->
+        <h2 id="stats"> Статистика использования каршеринга</h2>
+        <!-- добавим легкую рамку для таблицы -->
+        <div style="border: 2px solid #f39c12; padding: 5px; display: inline-block; background-color: #fef9e7;">
+        <table>
+            <caption>Таблица 1. Популярность классов автомобилей в 2025 году</caption>
+            <thead>
+                <tr style="background-color: #d5dbdb;">
+                    <th scope="col">Класс авто</th>
+                    <th scope="col">Среднее время поездки (мин)</th>
+                    <th scope="col">Стоимость за поездку (₽)</th>
+                    <th scope="col">Кол-во поездок (тыс.)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Эконом</th>
+                    <td>24</td>
+                    <td>210</td>
+                    <td>150</td>
+                </tr>
+                <tr style="background-color: #eaeded;">
+                    <th scope="row">Комфорт</th>
+                    <td>32</td>
+                    <td>410</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <th scope="row">Бизнес</th>
+                    <td>45</td>
+                    <td>950</td>
+                    <td>32</td>
+                </tr>
+                <tr style="background-color: #eaeded;">
+                    <th scope="row">Электро</th>
+                    <td>28</td>
+                    <td>340</td>
+                    <td>47</td>
+                </tr>
+                <tr>
+                    <th scope="row">Минивэн</th>
+                    <td>55</td>
+                    <td>1200</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr style="background-color: #aed6f1;">
+                    <th scope="row" colspan="3">Итого поездок (все классы):</th>
+                    <td>339 тыс.</td> <!-- итог строка -->
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+
+        <!-- ИЗОБРАЖЕНИЯ И МЕДИА -->
+        <h2> Наши автомобили</h2>
+        
+        <!-- Figure с подписью (добавлена рамка) -->
+        <figure style="border: 1px solid #5d6d7e; padding: 5px; display: inline-block; background-color: #fcfcfc;">
+            <img src="assets/images/хундай.webp" 
+                 alt="Hyundai Solaris - автомобиль эконом-класса" 
+                 width="500" 
+                 height="150" 
+                 loading="lazy">
+            <figcaption>Рис 1. Типичный автомобиль эконом-класса (Hyundai Solaris).</figcaption>
+        </figure>
+        
+        <!-- адапт пикч (рамка и отступ) -->
+        <div style="border: 1px solid #5d6d7e; padding: 5px; display: inline-block; background-color: #fcfcfc; margin-left: 10px;">
+        <picture>
+            <source media="(min-width: 800px)" srcset="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='150' viewBox='0 0 200 75'%3E%3Crect width='200' height='75' fill='%23b0c4de' /%3E%3Ccircle cx='60' cy='60' r='12' fill='black' /%3E%3Ccircle cx='140' cy='60' r='12' fill='black' /%3E%3Crect x='50' y='30' width='100' height='25' fill='%23222' /%3E%3C/svg%3E">
+            <img src="assets/images/рено.webp" 
+                 alt="Электромобиль Renault Zoe"
+                 width="200" 
+                 height="150" 
+                 loading="lazy">
+        </picture>
+        <figcaption style="text-align: center;">Электромобиль Renault Zoe</figcaption>
+        </div>
+        
+        <!-- видео (iframe) + canvas + svg (рамка для группы) -->
+        <div style="border: 1px solid #7d3c98; padding: 8px; margin-top: 10px; background-color: #f5eef8;">
+        <h3>  Обзор автомобиля</h3>
+        <iframe width="300" height="200" src="https://auto.ru/video/cars/hyundai/tucson/23833078/" title="Обзор авто" style="border:2px solid #ccc;" allowfullscreen></iframe>
+        
+        <h3>  Демо канваса (спидометр)</h3>
+        <canvas id="myCanvas" height="100" width="200" style="border:1px solid black; display: block;">Ваш браузер не поддерживает canvas.</canvas>
+        
+        <!-- свг иконка -->
+        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" style="border: 1px solid gray;">
+            <circle cx="12" cy="12" r="10" stroke="black" fill="lightblue" />
+            <text x="12" y="16" text-anchor="middle" font-size="10" fill="black"></text>
+        </svg>
+        </div>
+        
+        <!-- noscript -->
+        <noscript>
+            <div style="background:#ffdddd; border:1px solid red; padding:5px;">Для полного функционала включите JavaScript</div>
+        </noscript>
+
+        <!-- бронь (рамка для формы) -->
+        <section style="border: 2px solid #e67e22; padding: 10px; margin-top: 10px; background-color: #fef5e7;">
+            <h2 id="booking"> Забронировать автомобиль</h2>
+            <form method="post" action="#">
+                <!-- лич данные -->
+                <fieldset style="margin-bottom: 10px; border: 1px solid #b7950b;">
+                    <legend>Личная информация</legend>
+                    
+                    <label>ФИО: <input type="text" name="fio" required minlength="5" maxlength="100" placeholder="Иванов Иван Иванович" autocomplete="name"></label><br>
+                    
+                    <label>Email: <input type="email" name="email" required placeholder="mail@example.com" autocomplete="email"></label><br>
+                    
+                    <label>Пароль для входа: <input type="password" name="pass" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Минимум 8 символов, заглавная, строчная, цифра" autocomplete="new-password"></label><br>
+                    
+                    <label>Телефон: <input type="tel" name="phone" required pattern="\+7[0-9]{10}" placeholder="+79161234567" title="Формат: +79161234567" autocomplete="tel"></label><br>
+                    
+                    <label>Возраст (полных лет): <input type="number" name="age" min="18" max="90" required></label><br>
+                    
+                    <label>Дата начала аренды: <input type="date" name="start_date" required></label><br>
+                    
+                    <label>Время начала: <input type="time" name="start_time" value="10:00" required></label><br>
+                    
+                    <label>Сайт (если есть): <input type="url" name="website" placeholder="https://"></label><br>
+                    
+                    <label>Загрузить права (скан): <input type="file" name="license" accept=".jpg,.png,.pdf"></label><br>
+                    
+                    <label>Громкость уведомлений: <input type="range" name="volume" min="0" max="100" value="80"></label><br>
+                    
+                    <label>Цвет автомобиля (предпочтение): <input type="color" name="car_color" value="#FF0000"></label><br>
+                    
+                    <label>Поиск авто по модели: <input type="search" name="car_search" placeholder="Solaris, Rio..."></label>
+                </fieldset>
+                
+                <!-- параметры брони -->
+                <fieldset style="border: 1px solid #b7950b;">
+                    <legend>Параметры поездки</legend>
+                    
+                    <!-- radio (3 варианта) -->
+                    <p>Тариф:</p>
+                    <label><input type="radio" name="tariff" value="economy" required> Эконом</label>
+                    <label><input type="radio" name="tariff" value="comfort"> Комфорт</label>
+                    <label><input type="radio" name="tariff" value="business"> Бизнес</label><br>
+                    
+                    <!-- Select с optgroup -->
+                    <label>Выберите автомобиль:
+                        <select name="car">
+                            <optgroup label="Эконом">
+                                <option value="solaris">Hyundai Solaris</option>
+                                <option value="rio">Kia Rio</option>
+                            </optgroup>
+                            <optgroup label="Комфорт">
+                                <option value="focus">Ford Focus</option>
+                                <option value="octavia">Skoda Octavia</option>
+                            </optgroup>
+                            <optgroup label="Электро">
+                                <option value="zoe">Renault Zoe</option>
+                                <option value="tesla">Tesla Model 3</option>
+                            </optgroup>
+                        </select>
+                    </label><br>
+                    
+                    <!-- textarea -->
+                    <label>Особые пожелания:
+                        <textarea name="notes" placeholder="Детское кресло, багажник..." minlength="0" maxlength="300"></textarea>
+                    </label><br>
+                    
+                    <!-- datalist (продвинутый элемент) -->
+                    <label>Адрес подачи (начните вводить):
+                        <input list="addresses" name="address">
+                        <datalist id="addresses">
+                            <option value="ул. Тверская, 1">
+                            <option value="пр. Мира, 26">
+                            <option value="Кутузовский пр., 12">
+                        </datalist>
+                    </label><br>
+                    
+                    <!-- progress (не оч робит) -->
+                    <label>Заполненность профиля: <progress value="60" max="100">60%</progress></label><br>
+                    
+                    <!-- meter (не оч робит) -->
+                    <label>Загруженность парка сейчас: <meter value="0.7" min="0" max="1">70%</meter></label><br>
+                    
+                    <!-- output (не оч робит) -->
+                    <output name="demo_output">Предварительная стоимость: от 500 ₽</output><br>
+                    
+                    <!-- checkbox (2 шт, один required) -->
+                    <label><input type="checkbox" name="sms_notify" checked> Уведомлять по SMS</label><br>
+                    <label><input type="checkbox" name="agree" required> Согласен с условиями аренды (required)</label><br>
+                    
+                    <!-- кнопки -->
+                    <button type="submit">Забронировать</button>
+                    <button type="reset">Очистить</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- интерактивчик (details) с рамкой -->
+        <div style="border: 2px solid #5dade2; padding: 8px; margin-top: 10px; background-color: #d6eaf8;">
+        <h2> Часто задаваемые вопросы</h2>
+        <details>
+            <summary>Как пополнить баланс?</summary>
+            <p>Через приложение банковской картой, Apple Pay или Google Pay.</p>
+        </details>
+        <details>
+            <summary>Что делать при ДТП?</summary>
+            <p>Остановитесь, вызовите ГИБДД и нажмите кнопку "Помощь" в приложении.</p>
+        </details>
+        </div>
+        
+        <!-- dialog (не оч робит) добавлена рамка -->
+        <dialog open style="position: static; margin:1em 0; background:#e0f2fe; border: 2px solid #2875a7; display: block;">
+            <p> Тестовый режим: бронирование не отправляется.</p>
+        </dialog>
+
+    </main>
+
+    <!-- aside (колонка с боку) - выделение фоном -->
+    <aside style="border: 2px solid #b7950b; padding: 10px; margin: 5px; background-color: #fcf3cf;">
+        <h3> Быстрые факты о каршеринге</h3>
+        <ul>
+            <li><strong>Средняя поездка:</strong> 28 минут</li>
+            <li><strong>Самый популярный авто:</strong> Hyundai Solaris</li>
+            <li><strong>Штраф за курение:</strong> 2500 ₽</li>
+            <li><strong>Бонус за referral:</strong> 300 ₽</li>
+        </ul>
+        <p><small>Данные на <time datetime="2025-02-01">февраль 2025</time>.</small></p>
+    </aside>
+
+    <!-- футер (рамка) -->
+    <footer style="border: 2px solid #7f8c8d; padding: 10px; margin: 5px; background-color: #d0d3d4;">
+        <address>
+             <a href="mailto:support@carshare.ru">support@carshare.ru</a> |
+             <a href="tel:+78005553535">8 (800) 555-35-35</a>
+        </address>
+        <p>© 2025 CarShare. Все права защищены.</p>
+        <p><a href="#top">⬆ Наверх</a></p>
+    </footer>
+
+</body>
+</html>
